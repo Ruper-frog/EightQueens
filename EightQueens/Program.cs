@@ -130,21 +130,7 @@ namespace EightQueens
             for (int i = 0; i < chess.GetLength(0); i++)
             {
                 for (int j = 0; j < chess.GetLength(1); j++)
-                {
                     Console.Write(chess[i, j] == true ? "1" : "0");
-
-                    /*if (chess[i, j])
-                    //{
-                    //    Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    //    Console.Write("X");
-                    //}
-                    //else
-                    //{
-                    //    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    //    Console.Write("█|");
-                    //}
-                    Console.ResetColor();*/
-                }
 
                 Console.WriteLine();
             }
